@@ -1,0 +1,94 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+    background-color: #8066AA;
+    border-bottom: 
+  
+}
+
+
+form header h2  {
+  margin: 0 0 5px 0;
+  padding: 50px;
+  background-color: #B7A2DA;
+    border-style: solid dotted ;
+    border-color: #CDC6D9;
+    border-width: 7px;
+    
+}
+form > div {
+  clear: both;
+  overflow: hidden;
+  padding: 1px;
+  margin: 0 0 10px 0;
+}
+form > div > fieldset > div > div {
+  margin: 0 0 5px 0;
+}
+form > div > label,
+legend {
+	width: 25%;
+  float: left;
+  padding-right: 10px;
+}
+form > div > div,
+form > div > fieldset > div {
+  width: 75%;
+  float: right;
+  
+}
+form > div > fieldset label {
+	font-size: 90%;
+}
+fieldset {
+	border: 0;
+  padding: 20px;
+}
+
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=password],
+textarea {
+	width: 100%;
+    
+
+}
+
+input[type=url],
+input[type=password] {
+    float: ;
+}
+
+@media (max-width: 500px) {
+  
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  textarea,
+  select {
+    width: 100%; 
+  }
+    
+  
+    
+  input[type=text],
+  input[type=email],
+  input[type=url],
+  input[type=password],
+  label {
+    display:
+  }
+}
+@media (min-width: 1200px) {
+  form > div > label,
+	legend {
+  	text-align: right;
+  }
+}
